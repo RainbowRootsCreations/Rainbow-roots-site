@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Roots Creations</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; color: #333; }
+        header { background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a18cd1, #84fab0, #8fd3f4); color: #ffffff; padding: 1rem; text-align: center; }
+        nav { background-color: rgba(255,255,255,0.8); padding: 0.5rem; text-align: center; }
+        nav a { color: #6a0572; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+        .container { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+        .product { background-color: #ffffff; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        button { background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #84fab0, #8fd3f4); color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+        button:hover { opacity: 0.9; }
+        .footer { text-align: center; padding: 1rem; background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a18cd1, #84fab0, #8fd3f4); color: #ffffff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rainbow Roots Creations</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="product">
+        <h2>RBRC-2025 Personalized Logo Tumbler</h2>
+        <p>Price: $20.00</p>
+        <p><em>Product image placeholder</em></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>RBRC-2026 Personalized Business Tumbler</h2>
+        <p>Price: $25.00</p>
+        <p><em>Product image placeholder</em></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>RBRC-2027 Full Image Tumbler (with pictures & words)</h2>
+        <p>Price: $35.00</p>
+        <p><em>Product image placeholder</em></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>RBRC-2028 Personalized Tumbler with Extras</h2>
+        <p>Price: $35.00</p>
+        <p><em>Product image placeholder</em></p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <p>© 2025 Rainbow Roots Creations. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
